@@ -1,0 +1,87 @@
+{
+  "name": "BOT_DESCARGA_AUDIOS",
+  "description": "BOT_DESCARGA_AUDIOS",
+  "main": "Main.xaml",
+  "dependencies": {
+    "AlexFTPS": "[1.1.0.27735]",
+    "AutomationPill.DataTable.Activities": "[1.0.0]",
+    "BalaReva.EasyExcel.Activities": "[28.1.2]",
+    "BalaReva.Excel.Activities": "[2020.3.3]",
+    "CSVReadWrite": "[1.0.0.1]",
+    "CsvTools": "[1.0.12]",
+    "EnviarCorreos": "[1.0.1]",
+    "FeatSystems.SFTPEnumerateFiles": "[1.0.0]",
+    "HanRan.CsvFile": "[0.1.2]",
+    "Microsoft.Activities": "[1.0.1]",
+    "serviciosAdjc": "[1.1.5]",
+    "SFTP.Activities": "[0.1.0]",
+    "System.Net.FtpClient": "[1.0.5824.34026]",
+    "TinyCsvParser": "[2.5.2]",
+    "UiPath.Database.Activities": "[1.4.0]",
+    "UiPath.Excel.Activities": "[2.10.2-preview]",
+    "UiPath.FTP.Activities": "[1.0.7495.12930]",
+    "UiPath.Java.Activities": "[1.0.7495.12930]",
+    "UiPath.Mail.Activities": "[1.8.6]",
+    "UiPath.PDF.Activities": "[3.3.0]",
+    "UiPath.System.Activities": "[20.4.0]",
+    "UiPath.UIAutomation.Activities": "[20.4.3]",
+    "UiPath.WebAPI.Activities": "[1.4.5]",
+    "UiPathTeam.DotNetZip.Activities": "[1.0.7222.31886]",
+    "UiPathTeam.Subtitle.Activities": "[1.2.0]",
+    "VPNConnector": "[1.0.0]",
+    "WinSCP": "[5.18.2-beta]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "20.4.3.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": false
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "b7c9d8bd-f65b-4cb0-a618-edc842a57486",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Pruebas.XAML",
+      "uniqueId": "b00f1cbc-4598-42b9-97dc-a9a1708b3a81",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Legacy"
+}
